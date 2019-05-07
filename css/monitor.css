@@ -1,0 +1,46 @@
+@media screen and (min-width: 1024px)
+{
+	body{
+		width: 70%;
+		margin: 0 15%;
+		background-image: url("../img/background.jpg");
+	}
+	header{
+		margin-top: 5px;
+	}
+	#menu{
+		height: 40px;
+		margin-left: calc((100% - 170px * 4)/2);
+	}
+	#menu li{
+		width: 170px;
+	}
+	#menu .first li a{
+		font-size: 18px;
+	}
+	#menu .second li a{
+		font-size: 14px;
+	}
+	#total_page{
+		font-size: 14px;
+	}
+	.page{
+		font-size: 18px;
+	}
+	.tpage{
+		font-size: 18px;
+	}
+	
+	form{
+		width: 80%;
+	}
+	form fieldset legend{
+		font-size: 19px;
+	}
+	iframe{
+		height: 450px;
+	}
+	.uptext{
+		width: 70%;
+	}
+}

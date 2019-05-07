@@ -1,0 +1,21 @@
+@media screen and (min-width: 1280px)
+{
+	body{
+		max-width: 1024px;
+		width: 70%;
+		margin: 0 auto;
+	}
+	
+	form{
+		width: 70%;
+	}
+	form fieldset legend{
+		font-size: 20px;
+	}
+	iframe{
+		height: 500px;
+	}
+	.uptext{
+		width: 60%;
+	}
+}

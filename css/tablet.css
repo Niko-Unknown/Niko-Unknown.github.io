@@ -1,0 +1,65 @@
+@media screen and (min-width: 610px)
+{
+	body{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	header{
+		margin-top: 3px;
+	}
+	#head img{
+		width: 70%;
+	}
+	#menu{
+		height: 35px;
+		margin-left: calc((100% - 140px * 4)/2);
+	}
+	#menu li{
+		float: left;
+		width: 140px;
+		position: relative;
+	}
+	#menu .first li a{
+		display: block;
+		font-size: 15px;
+		padding: 8px;
+	}
+	#menu .second li a{
+		font-size: 11px;
+	}
+	#menu li .second{
+		display: none;
+		position: absolute;
+		top: 100%;
+	}
+	#menu li:hover .second{
+		display: block;
+	}
+	#total_page{
+		padding: 8px;
+		font-size: 11px;
+	}
+	.page{
+		display: block;
+		padding: 8px;
+		font-size: 15px;
+	}
+	.tpage{
+		display: block;
+		padding: 8px;
+		font-size: 15px;
+	}
+	
+	form{
+		width: 90%;
+	}
+	form fieldset legend{
+		font-size: 18px;
+	}
+	iframe{
+		height: 400px;
+	}
+	.uptext{
+		width: 75%;
+	}
+}
